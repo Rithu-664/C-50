@@ -1,0 +1,29 @@
+* {
+    color: darkslateblue;
+    font-family: cursive             
+}
+h1{
+    font-size: 40px;                
+}
+.header{
+    background-color: lightseagreen;
+    display: flex;
+    justify-content: center;
+}
+.projects{
+    background-color: darkcyan;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+.site-description{
+    display: flex; 
+    flex-direction: column; 
+    justify-content: first baseline; 
+}
+.footer{
+    background-color: lightcoral;
+    display:flex;
+    justify-content: center;
+}
